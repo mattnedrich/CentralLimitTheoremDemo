@@ -2,7 +2,7 @@
 This project demonstrates the principles of the Central Limit Theorem by sampling a given input distribution 1000 times with a user specified sample size.
 
 ## Requirements
-If plotting is enabled, Matplotlib and Seaborn are required.
+If plotting is enabled, [Matplotlib](http://matplotlib.org/) and [Seaborn](http://stanford.edu/~mwaskom/software/seaborn/) are required.
 
 ## Usage
 The `central_limit_theorem_demo.py` file contain a `CentralLimitTheorem` class. It can be instantiated with a distribution in the form of a list.
