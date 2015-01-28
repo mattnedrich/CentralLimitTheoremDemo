@@ -29,12 +29,13 @@ def plot_distribution(distribution, title = None, bin_min = None, bin_max = None
     if num_bins != None:
         bin_size = (bin_max - bin_min) / num_bins
         manual_bins = range(bin_min, bin_max + bin_size, bin_size)
-        plt.hist(distribution, bins = manual_bins)
+        [n, bins, patches] = plt.hist(distribution, bins = manual_bins)
     else:
-        plt.hist(distribution)
+        [n, bins, patches] = plt.hist(distribution)
     if title != None:
         plt.title(title)
     plt.xlim(bin_min, bin_max)
+    plt.ylim(0, max(n) + 2)
     plt.ylabel("Frequency")
     plt.xlabel("Observation")
     plt.show()
