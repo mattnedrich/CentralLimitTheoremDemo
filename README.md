@@ -8,10 +8,10 @@ If plotting is enabled, Matplotlib and Seaborn are required.
 The `central_limit_theorem_demo.py` file contain a `CentralLimitTheorem` class. It can be instantiated with a distribution in the form of a list.
 
 ```python
-    imort central_limit_theorem_demo as clt
+import central_limit_theorem_demo as clt
 
-    some_distribution = create_distribution(...)
-    cltDemo = clt.CentralLimitTheorem(some_distribution)
+some_distribution = create_distribution(...)
+cltDemo = clt.CentralLimitTheorem(some_distribution)
 ```
 
 The demo can be run via the `run_sample_demo` method on CentralLimitTheoremDemo. This method takes a sample size `N`, a plotting flag `plot`, and an optional `num_bins` parameter describing the number of bins to use when plotting the demo output.
@@ -21,6 +21,7 @@ A full example might look something like this.
 
 ```python
 import central_limit_theorem_demo as clt
+
 def create_uniform_sample_distribution():
     return range(100)
 
@@ -39,5 +40,5 @@ def run():
 
 This produces the following output images.
 
-![alt tag](https://raw.github.com/mattnedrich/mattnedrich/CentralLimitTheoremDemo/blob/master/sample_output/uniform_dist.png)
+![alt tag](https://github.com/mattnedrich/CentralLimitTheoremDemo/blob/master/sample_output/uniform_dist.png)
 

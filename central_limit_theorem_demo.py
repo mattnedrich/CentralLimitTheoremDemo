@@ -22,7 +22,6 @@ class CentralLimitTheoremDemo(object):
             plot_distribution(means, title , self.dist_min, self.dist_max, num_bins)
         return means
 
-
 def plot_distribution(distribution, title = None, bin_min = None, bin_max = None, num_bins = None):
     import matplotlib.pyplot as plt
     import seaborn as sns
@@ -34,7 +33,6 @@ def plot_distribution(distribution, title = None, bin_min = None, bin_max = None
     else:
         plt.hist(distribution)
     if title != None:
-        print title
         plt.title(title)
     plt.xlim(bin_min, bin_max)
     plt.ylabel("Frequency")
