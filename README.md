@@ -42,3 +42,10 @@ This produces the following output images.
 
 ![alt tag](https://github.com/mattnedrich/CentralLimitTheoremDemo/blob/master/sample_output/uniform_dist.png)
 
+![alt tag](https://github.com/mattnedrich/CentralLimitTheoremDemo/blob/master/sample_output/uniform_n_2.png)
+
+![alt tag](https://github.com/mattnedrich/CentralLimitTheoremDemo/blob/master/sample_output/uniform_n_3.png)
+
+![alt tag](https://github.com/mattnedrich/CentralLimitTheoremDemo/blob/master/sample_output/uniform_n_10.png)
+
+![alt tag](https://github.com/mattnedrich/CentralLimitTheoremDemo/blob/master/sample_output/uniform_n_30.png)
