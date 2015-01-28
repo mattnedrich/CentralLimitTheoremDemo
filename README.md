@@ -5,7 +5,7 @@ This project demonstrates the principles of the Central Limit Theorem by samplin
 If plotting is enabled, [Matplotlib](http://matplotlib.org/) and [Seaborn](http://stanford.edu/~mwaskom/software/seaborn/) are required.
 
 ## Usage
-The `central_limit_theorem_demo.py` file contain a `CentralLimitTheorem` class. It can be instantiated with a distribution in the form of a list.
+The `central_limit_theorem_demo.py` file contains a `CentralLimitTheorem` class. It can be instantiated with a distribution in the form of a list.
 
 ```python
 import central_limit_theorem_demo as clt
